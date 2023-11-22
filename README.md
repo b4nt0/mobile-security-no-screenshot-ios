@@ -11,3 +11,12 @@ library to prevent screenshots on iOS in a SwiftUI app.
 2. Fetch the Swift Package Manager dependencies
 
 3. Build and run the sample app
+
+## How it works
+
+This example uses ScreenshotPreventing-iOS API with just one line of code: in
+`ContentView.swift` the line responsible for screenshot protection is:
+
+```swift
+.screenshotProtected(isProtected: preventScreenshot)
+```
